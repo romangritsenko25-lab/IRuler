@@ -2589,23 +2589,19 @@
   .nav-social .social-btn { padding: 8px 10px; }
   .nav-social { gap: 6px; }
 
-  /* ── БЛОК 3: ГЕРОЙ ── */
-/* ── БЛОК 3: ГЕРОЙ (ОБНОВЛЕННЫЙ) ── */
+/* ── БЛОК 3: ГЕРОЙ ── */
   .hero { min-height: 100svh; display: flex; align-items: center; }
   .hero-left { max-width: 100%; }
   .hero-banner-inner { 
     padding: 32px 16px 40px; 
-    /* Сдвигаем фото вправо на 90% и делаем прозрачный градиент */
-    background-position: 90% center !important; 
-    background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.85) 30%, rgba(10, 10, 10, 0.2) 100%), var(--hero-img) !important;
+    background-position: 85% center !important; 
+    background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.8) 25%, rgba(10, 10, 10, 0.2) 100%), var(--hero-img) !important;
     background-size: cover !important;
     border-radius: 24px;
-    position: relative;
-    overflow: hidden;
   }
-  h1 { font-size: 28px; letter-spacing: -1px; line-height: 1.15; margin-bottom: 12px; }
+  h1 { font-size: 28px !important; letter-spacing: -1px; line-height: 1.15; margin-bottom: 12px; }
   .hero-tag { font-size: 10px; padding: 5px 10px; margin-bottom: 14px; display: inline-block; }
-  .hero-sub { font-size: 13px; margin-bottom: 24px; max-width: 200px; line-height: 1.4; color: rgba(255,255,255,0.8); }
+  .hero-sub { font-size: 13px !important; margin-bottom: 24px; max-width: 210px !important; line-height: 1.4; }
   .hero-cta { display: flex; flex-direction: column; gap: 10px; }
   .btn-primary, .btn-outline { width: 100%; padding: 14px 16px; font-size: 12px; text-align: center; border-radius: 12px; }
   .stats { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 32px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); }
